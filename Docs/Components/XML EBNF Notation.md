@@ -1,4 +1,4 @@
-### Summary fo XML EBNF notation
+### Summary of XML EBNF notation
 
 Each rule in the grammar defines a symbol in the format:  **symbol** ::= expression<br>
 With “::=” meaning “Defined as” and symbols being used in successive definitions to create full definitions. 
