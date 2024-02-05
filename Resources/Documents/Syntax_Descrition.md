@@ -2,7 +2,7 @@
 
 Elements are indicated by the use of a case sensitive name starting with a character which is neither a symbol nor a digit (0 to 9), with digits being allowed in the following characters of the name. In addition names may contain underline characters (“_”) in any position and dash or hyphen minus (“-”) characters but not as the first character. Attributes follow the same naming rules as for elements but are proceeded by the dollar (“$”) symbol. 
 
-Elements may contain text data and also may contain attributes and other elements. Attributes may only contain text content. There are no standard rules in XML as to when attributes should be used rather than elements.
+Elements may contain text data and also may contain attributes and other elements. Attributes may only contain text content. There are no standard rules in XML as to when attributes should be used rather than elements. Elements may be immediately preceded by control symbols. 
 
 The main control symbols used in a markup tag are Level indicators – which must be before any other symbols used. Level indicators are a single “-” symbol to indicate down one level and “+” symbols to indicate up one or more levels. Level indicators must not be used before attributes as these always “belong” to the preceding element.
 
