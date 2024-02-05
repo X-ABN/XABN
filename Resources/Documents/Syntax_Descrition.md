@@ -17,11 +17,12 @@ An example of these is:
         **Student:         $Number:** 3671 <br>
                 **−Name:** <br>
                         **−Given:** Charlie         **Last:** Doe <br>
-                **+Location: ** <br>
+                **+Location:** <br>
                         **−Building:** Block B         **Class:** 12A <br>
 
 <details>
 <summary> Expand for Conversion to XML </summary>
+  
 **ᐸStudentsᐳ** <br>
         **ᐸStudent Number=”3671” ᐳ** <br>
                 **ᐸNameᐳ** <br>
@@ -30,6 +31,7 @@ An example of these is:
                 **ᐸLocationᐳ ** <br>
                         **ᐸBuildingᐳ**Block B**ᐸ/Buildingᐳ** <br>
                         **ᐸClassᐳ**12A**ᐸ/Classᐳ** <br>
+                        
 </details>
 
 There are some complexities inherent in XML which will not often be relevant or required but in some cases can be essential. These include namespaces, inter-element text, processing instructions, XML comments, XML declarations, DOCTYPE declarations and Unicode considerations. 
@@ -39,4 +41,4 @@ These are covered in further sections. In addition Full details can be found in 
 * [Namespaces in XML 1.0](https://www.w3.org/TR/xml-names/) 
 * [The Unicode Standard Version 15.0 ](https://www.unicode.org/versions/Unicode15.0.0/UnicodeStandard-15.0.pdf)
 
-This is not a specification - but where used the emphasised words **"Must", "Must not", "Required", "Shall", "Shall not", "Should", "Should not", "Recommended",  "May", and "Optional"** have the meanings as described in RFC 2119. Where definitions of grammar are given these use the XML Extended Backus-Naur Form (EBNF) notation.
+This is not a specification - but where used the emphasised words **"Must", "Must not", "Required", "Shall", "Shall not", "Should", "Should not", "Recommended",  "May" and "Optional"** have the meanings as described in RFC 2119. Where definitions of grammar are given these use the XML Extended Backus-Naur Form (EBNF) notation.
