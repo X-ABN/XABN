@@ -4,7 +4,7 @@ The basic use syntax of XABN is quite simple - consisting of a markup tag follow
 
 A markup tag generally consists of a property name optionally preceded by control symbols. In XML (and hence in XABN) there are two main types of “property” – these are Elements and Attributes. 
 
-[Description of markup format](https://github.com/X-ABN/XABN/new/main/Resources)  <br>
+[Description of markup format](https://github.com/X-ABN/XABN/blob/main/Resources/Documents/Syntax_Descrition.md)  <br>
 [Formal XML EBNF markup definition] 
 [Rules and formats for text content] 
 [Markup tag format and control symbols definition and usage]
