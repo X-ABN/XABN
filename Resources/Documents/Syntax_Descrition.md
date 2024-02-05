@@ -23,14 +23,16 @@ An example of these is:
 <details>
 <summary> Expand for Conversion to XML </summary>
   
-**ᐸStudentsᐳ** <br>
-        **ᐸStudent Number=”3671” ᐳ** <br>
-                **ᐸNameᐳ** <br>
-                        **ᐸGivenᐳ**Charlie**ᐸ/Givenᐳ** <br>
-                        **ᐸLastᐳ **Doe**ᐸ/Lastᐳ** <br>
-                **ᐸLocationᐳ ** <br>
-                        **ᐸBuildingᐳ**Block B**ᐸ/Buildingᐳ** <br>
-                        **ᐸClassᐳ**12A**ᐸ/Classᐳ** <br>
+**ᐸStudents** <br>
+        **ᐳᐸStudent Number**=”3671” <br>
+                **ᐳᐸName** <br>
+                        **ᐳᐸGivenᐳ**Charlie**ᐸ/Given** <br>
+                        **ᐳᐸLastᐳ**Doe**ᐸ/Lastᐳᐸ/Name** <br>
+                **ᐳᐸLocation** <br>
+                        **ᐳᐸBuildingᐳ**Block B**ᐸ/Building** <br>
+                        **ᐳᐸClassᐳ**12A**ᐸ/Classᐳᐸ/Location** <br>
+        **ᐳᐸ/Student** <br> 
+**ᐳᐸ/Studentsᐳ** <br>
                         
 </details>
 
