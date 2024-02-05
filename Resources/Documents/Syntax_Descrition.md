@@ -14,7 +14,7 @@ An example of these is:
 
 
 **Students:** <br>
-        **Student:         $Number:** 3671 <br>
+        **−Student:         $Number:** 3671 <br>
                 **−Name:** <br>
                         **−Given:** Charlie         **Last:** Doe <br>
                 **+Location:** <br>
